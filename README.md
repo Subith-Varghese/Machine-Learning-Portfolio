@@ -3,7 +3,7 @@ Welcome to my Machine Learning Project Portfolio 🚀
 This repository showcases practical ML projects covering regression, classification, and predictive modeling, with end-to-end pipelines including data preprocessing, model training, evaluation.
 
 ---
-🔹# Regression Projects
+# Regression Projects 
 ## 🎓 Student Performance Predictor
 https://github.com/Subith-Varghese/student_performance_predictor
 
@@ -32,6 +32,7 @@ Python | Pandas | NumPy | Scikit-learn | XGBoost | CatBoost | Matplotlib/Seaborn
 - Predicted Math Score: 78 / 100
 
 ---
+# Classification Projects: 
 ## 💰 Bank Term Deposit Subscription Predictor
 https://github.com/Subith-Varghese/DepositInsight
 Predict whether a client will subscribe to a term deposit based on historical marketing campaign and client data.
@@ -95,5 +96,81 @@ Python | Pandas | NumPy | Scikit-learn | LDA | Logging
 | Decision Tree       | 80.7%    |
 | Random Forest       | 85.4% ✅  |
 
+---
+# Recommendation System
+## 🎬 Netflix Movie Recommendation System
+https://github.com/Subith-Varghese/netflix-recommendation-system
 
+Build a personalized movie recommendation system using matrix factorization (SVD).
+
+### Key Features:
+- Preprocess Netflix Prize dataset → filter unpopular movies & inactive users
+- Train SVD model (matrix factorization) with Surprise library
+- Generate Top-N movie recommendations for individual users
+- Modular pipeline with separate scripts for preprocessing, training, and recommendation
+- Save user-specific recommendations as CSV files
+
+### Workflow:
+
+1. Preprocess ratings dataset → filter by popularity thresholds
+2. Train SVD model → save model
+3. Generate Top-N recommendations → save CSV per user
+4. Logging for pipeline monitoring
+
+---
+
+## Time Series Forecasting
+
+## 🦠 COVID-19 Forecasting Project
+https://github.com/Subith-Varghese/covid19-forecasting-analysis
+
+Analyze and forecast COVID-19 trends globally using historical case data.
+
+### Key Features:
+
+- Data cleaning, aggregation, and EDA
+- Visualizations: top countries, world maps, bar plots
+- Time series forecasting with Facebook Prophet
+- Predict future deaths with confidence intervals
+- Save forecasts, plots, and trained Prophet model for further use
+
+### Workflow:
+1. Load & clean dataset → aggregate country-level data
+2. Generate visualizations (Top 10 countries, world maps)
+3. Prepare daily deaths for forecasting
+4. Train Prophet model → forecast next 14 days
+5. Save outputs → plots, forecast CSV, Prophet model
+6. 
+---
+
+## ✈️ Airline Passenger Forecasting using ARIMA & SARIMA
 https://github.com/Subith-Varghese/Time-Series-Forecasting-ARIMA-SARIMA/tree/main
+
+Forecast international airline passenger traffic using Time Series Analysis.
+
+### Key Features:
+- Explore historical passenger trends (Jan 1949 – Dec 1960)
+- Check stationarity using ADF Test, Rolling Mean & Standard Deviation
+- Apply log transformation & rolling mean differencing to stabilize series
+- Build ARIMA and SARIMA models to forecast passenger counts
+- Visualize predictions vs actual data
+- Forecast future trends for 2 years and 5 years
+
+### Workflow:
+1. Load dataset → visualize trends & check stationarity
+2. Make series stationary → log transform + rolling differencing
+3. Build ARIMA (p,d,q) & SARIMA (p,d,q,s) models
+4. Forecast future passenger counts → plot against historical data
+
+### Visualizations:
+- Rolling Mean & Std Deviation
+- PACF & ACF plots
+- ARIMA vs Actual
+- SARIMA vs Actual
+- 5-Year Forecast
+
+### Concepts Covered:
+- Time Series Stationarity & Differencing
+- PACF & ACF for ARIMA order selection
+- Seasonal ARIMA modeling
+- Forecasting future trends
