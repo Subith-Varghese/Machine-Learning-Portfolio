@@ -3,6 +3,7 @@ Welcome to my Machine Learning Project Portfolio 🚀
 This repository showcases practical ML projects covering regression, classification, and predictive modeling, with end-to-end pipelines including data preprocessing, model training, evaluation.
 
 ---
+🔹# Regression Projects
 ## 🎓 Student Performance Predictor
 https://github.com/Subith-Varghese/student_performance_predictor
 
@@ -32,7 +33,7 @@ Python | Pandas | NumPy | Scikit-learn | XGBoost | CatBoost | Matplotlib/Seaborn
 
 ---
 ## 💰 Bank Term Deposit Subscription Predictor
-
+https://github.com/Subith-Varghese/DepositInsight
 Predict whether a client will subscribe to a term deposit based on historical marketing campaign and client data.
 
 ### Key Features
@@ -66,11 +67,33 @@ Python | Pandas | NumPy | Scikit-learn | Imbalanced-learn | Flask
 | Random Forest       | 0.96     | 0.85      | 0.82   | 0.84     | Best overall                  |
 | Random Forest Best  | 0.96     | 0.83      | 0.83   | 0.83     | Slightly tuned version        |
 
-  
-
-https://github.com/Subith-Varghese/DepositInsight
-
-
+---
+## 🏆 CSGO Round Winner Prediction 
 https://github.com/Subith-Varghese/LDA_csgo-round-winner-prediction
+
+Predict the winning team (CT or T) in CSGO rounds using ML classifiers.
+
+### Key Features:
+- LDA-based feature selection → top 20 features
+- Models: Logistic Regression, Decision Tree, Random Forest
+- Preprocessing: encoding, scaling, feature selection
+- Prediction pipeline for unseen match data
+
+### Tech Stack:
+Python | Pandas | NumPy | Scikit-learn | LDA | Logging
+
+### Workflow:
+1. Preprocess data → handle duplicates → encode categorical features → scale
+2. Feature selection via LDA → select top 20 features
+3. Train models → save trained models & artifacts
+4. Evaluate models → accuracy, classification report, confusion matrix
+5. Predict new round winners using saved pipeline
+
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 75.8%    |
+| Decision Tree       | 80.7%    |
+| Random Forest       | 85.4% ✅  |
+
 
 https://github.com/Subith-Varghese/Time-Series-Forecasting-ARIMA-SARIMA/tree/main
