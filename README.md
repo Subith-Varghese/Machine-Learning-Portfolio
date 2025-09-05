@@ -144,7 +144,7 @@ Analyze and forecast COVID-19 trends globally using historical case data.
 ---
 
 ## ✈️ Airline Passenger Forecasting using ARIMA & SARIMA
-https://github.com/Subith-Varghese/Time-Series-Forecasting-ARIMA-SARIMA/tree/main
+https://github.com/Subith-Varghese/Time-Series-Forecasting-ARIMA-SARIMA
 
 Forecast international airline passenger traffic using Time Series Analysis.
 
